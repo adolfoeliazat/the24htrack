@@ -72,7 +72,7 @@ sleep 1
 links2 -dump https://www.google.it/search?q=site:twitter.com+"$sotar""&"tbs=qdr:d > st.txt
 
 echo -e "\e[00;34mFACEBOOK\e[00m"
-cat sf.txt | grep ---color e http
+cat sf.txt | grep ---color -e http
 echo " "
 echo -e "\e[01;34mTWITTER\e[00m"
 cat st.txt | grep --color -e http
